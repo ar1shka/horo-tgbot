@@ -44,11 +44,11 @@ $ sudo ./llvm.sh 16 all
  ## Запуск бота
 
  ```bash
-horo-tgbot-cpp$ mkdir ./build
-horo-tgbot-cpp$ cd ./build
-horo-tgbot-cpp/build$ cmake ./..
-horo-tgbot-cpp/build$ make
-horo-tgbot-cpp/build$ ./bot-run $(< ./../token)
+horo-tgbot$ mkdir ./build
+horo-tgbot$ cd ./build
+horo-tgbot/build$ cmake ./..
+horo-tgbot/build$ make
+horo-tgbot/build$ ./bot-run $(< ./../token)
  ```
 
 ## Документация по методам 
